@@ -668,7 +668,7 @@ trainset, testset = train_test_split(data, test_size=0.2, random_state=42)
 print(f"Training set size: {trainset.n_users} users, {trainset.n_items} items, {trainset.n_ratings} ratings")
 print(f"Test set size: {len(testset)} ratings")
 
-!pip install scikit-surprise
+pip install scikit-surprise
 
 """We will use the SVD (Singular Value Decomposition) algorithm, a popular model-based collaborative filtering technique, to train our recommendation model."""
 
@@ -1204,6 +1204,6 @@ st.pyplot(fig6)
 
 # To run this Streamlit app, save the code as `app.py` and run `streamlit run app.py` in your terminal.
 
-!pip install streamlit
+pip install streamlit
 
 """Now that Streamlit is installed, you can re-run the previous cell (`863e8d4b`) to launch the application. Remember that Streamlit applications are typically run from the command line (e.g., `streamlit run app.py`), so you would need to save the code to a file and run it outside of this notebook environment to interact with it fully. This cell only serves to make sure the app code is valid and all dependencies are present."""
